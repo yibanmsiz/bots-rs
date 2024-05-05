@@ -223,7 +223,7 @@ bot.onText(/\/cleanuri (.+)/, async (msg, match) => {
 
 
 // Kanal IDingizni kiriting
-const channelId = 'camuznews';
+const channelId = '@camuznews';
 
 // /start komandasini qayta ishlash
 bot.onText(/\/start/, async (msg) => {
