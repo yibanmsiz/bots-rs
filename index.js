@@ -223,7 +223,7 @@ bot.onText(/\/cleanuri (.+)/, async (msg, match) => {
 
 
 // Kanal IDingizni kiriting
-const channelId = '@camuznews';
+const channelId = 'camuznews';
 
 // /start komandasini qayta ishlash
 bot.onText(/\/start/, async (msg) => {
@@ -260,7 +260,7 @@ bot.onText(/\/start/, async (msg) => {
                 reply_markup: {
                     inline_keyboard: [
                         [{ text: 'Kanalga a\'zo bo\'lish 🔥', url: `https://t.me/${channelId.slice(1)}`}],[{ text: 'Tekshirish ♻️', url:
-`https://t.me/All_In_1_Robot?start=bot`}]
+`https://t.me/camuzbot?start=bot`}]
                     ]
                 }
             };
